@@ -1,0 +1,80 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: yaoyiyao - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\wzx\AppData\Local\Temp\RSP9872.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/yaoyiyao.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Code\C++\yaoyiyao.c"
+]
+Creating command line "cl.exe @C:\Users\wzx\AppData\Local\Temp\RSP9872.tmp" 
+Creating temporary file "C:\Users\wzx\AppData\Local\Temp\RSP9873.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/yaoyiyao.pdb" /debug /machine:I386 /out:"Debug/yaoyiyao.exe" /pdbtype:sept 
+".\Debug\yaoyiyao.obj"
+]
+Creating command line "link.exe @C:\Users\wzx\AppData\Local\Temp\RSP9873.tmp"
+<h3>Output Window</h3>
+Compiling...
+yaoyiyao.c
+e:\code\c++\yaoyiyao.c(14) : error C2061: syntax error : identifier 'check_ignore'
+e:\code\c++\yaoyiyao.c(14) : error C2059: syntax error : ';'
+e:\code\c++\yaoyiyao.c(14) : error C2059: syntax error : 'type'
+e:\code\c++\yaoyiyao.c(43) : error C2143: syntax error : missing ';' before 'type'
+e:\code\c++\yaoyiyao.c(43) : error C2143: syntax error : missing ';' before 'type'
+e:\code\c++\yaoyiyao.c(43) : error C2143: syntax error : missing ')' before 'type'
+e:\code\c++\yaoyiyao.c(43) : error C2143: syntax error : missing ';' before 'type'
+e:\code\c++\yaoyiyao.c(43) : error C2065: 'i' : undeclared identifier
+e:\code\c++\yaoyiyao.c(43) : warning C4552: '<' : operator has no effect; expected operator with side-effect
+e:\code\c++\yaoyiyao.c(43) : error C2059: syntax error : ')'
+e:\code\c++\yaoyiyao.c(44) : error C2143: syntax error : missing ';' before '{'
+e:\code\c++\yaoyiyao.c(61) : error C2143: syntax error : missing ';' before 'type'
+e:\code\c++\yaoyiyao.c(62) : error C2143: syntax error : missing ';' before 'type'
+e:\code\c++\yaoyiyao.c(63) : error C2065: 'i_ope' : undeclared identifier
+e:\code\c++\yaoyiyao.c(73) : warning C4013: 'check_ignore' undefined; assuming extern returning int
+e:\code\c++\yaoyiyao.c(80) : error C2143: syntax error : missing ';' before 'type'
+e:\code\c++\yaoyiyao.c(81) : error C2065: 'n_st' : undeclared identifier
+e:\code\c++\yaoyiyao.c(82) : error C2143: syntax error : missing ';' before 'type'
+e:\code\c++\yaoyiyao.c(83) : error C2065: 'flag' : undeclared identifier
+e:\code\c++\yaoyiyao.c(83) : warning C4022: 'memset' : pointer mismatch for actual parameter 1
+e:\code\c++\yaoyiyao.c(85) : error C2143: syntax error : missing ';' before 'type'
+e:\code\c++\yaoyiyao.c(85) : error C2143: syntax error : missing ';' before 'type'
+e:\code\c++\yaoyiyao.c(85) : error C2143: syntax error : missing ')' before 'type'
+e:\code\c++\yaoyiyao.c(85) : error C2143: syntax error : missing ';' before 'type'
+e:\code\c++\yaoyiyao.c(85) : warning C4552: '<' : operator has no effect; expected operator with side-effect
+e:\code\c++\yaoyiyao.c(85) : error C2059: syntax error : ')'
+e:\code\c++\yaoyiyao.c(86) : error C2143: syntax error : missing ';' before '{'
+e:\code\c++\yaoyiyao.c(92) : error C2109: subscript requires array or pointer type
+e:\code\c++\yaoyiyao.c(93) : error C2109: subscript requires array or pointer type
+e:\code\c++\yaoyiyao.c(93) : error C2106: '=' : left operand must be l-value
+e:\code\c++\yaoyiyao.c(101) : error C2143: syntax error : missing ';' before 'type'
+e:\code\c++\yaoyiyao.c(102) : error C2065: 'l' : undeclared identifier
+e:\code\c++\yaoyiyao.c(102) : error C2065: 'r' : undeclared identifier
+e:\code\c++\yaoyiyao.c(103) : error C2143: syntax error : missing ';' before 'type'
+e:\code\c++\yaoyiyao.c(106) : error C2065: 'rn' : undeclared identifier
+e:\code\c++\yaoyiyao.c(115) : error C2143: syntax error : missing ';' before 'type'
+e:\code\c++\yaoyiyao.c(116) : error C2065: 'sNo' : undeclared identifier
+e:\code\c++\yaoyiyao.c(117) : error C2143: syntax error : missing ';' before 'type'
+e:\code\c++\yaoyiyao.c(118) : error C2143: syntax error : missing ';' before 'type'
+e:\code\c++\yaoyiyao.c(118) : error C2143: syntax error : missing ';' before 'type'
+e:\code\c++\yaoyiyao.c(118) : error C2143: syntax error : missing ')' before 'type'
+e:\code\c++\yaoyiyao.c(118) : error C2143: syntax error : missing ';' before 'type'
+e:\code\c++\yaoyiyao.c(118) : warning C4552: '<' : operator has no effect; expected operator with side-effect
+e:\code\c++\yaoyiyao.c(118) : error C2059: syntax error : ')'
+e:\code\c++\yaoyiyao.c(119) : error C2143: syntax error : missing ';' before '{'
+e:\code\c++\yaoyiyao.c(120) : warning C4047: 'function' : 'const char *' differs in levels of indirection from 'int '
+e:\code\c++\yaoyiyao.c(120) : warning C4024: 'strcmp' : different types for formal and actual parameter 1
+e:\code\c++\yaoyiyao.c(133) : error C2065: 'f_exit' : undeclared identifier
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+yaoyiyao.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
